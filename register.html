@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="CSS/style.cs">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- User Registration -->
+     <section id="registration">
+        <h1>Gorceryko User Registration</h1>
+        
+        <label>First name</label><br>
+        <input type="text" id="fname"><br> 
+
+        <label>Last name</label><br>
+        <input type="text" id="lname"><br> 
+
+        <label>Username</label><br>
+        <input type="text" id="uname"><br> 
+
+        <label>Address</label><br>
+        <input type="text" id="address"><br> 
+
+        <label>Email</label><br>
+        <input type="text" id="email"><br> 
+
+        <label>Password</label><br>
+        <input type="text" id="password"><br>
+        
+        <label>Number</label><br>
+        <input type="text" id="number"><br> 
+
+        <button onclick="saveUserDetails()">Register</button>
+
+        <p id="regMessage"></p>
+     </section>
+
+    <script src="JS/reg.js"></script>
+
+    <!-- lOGIN SETION -->
+     <section id="loginSection">
+        <h2> User Log In</h2>
+
+        <label>Username</label><br>
+        <input type="text" id="login_uname"><br>
+
+        <label>Password</label><br>
+        <input type="text" id="login_password"><br>
+
+        <button onclick = "loginUser()">login</button>
+        
+     </section>
+</body>
+</html>
